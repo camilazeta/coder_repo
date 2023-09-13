@@ -226,7 +226,7 @@ height: 50px;
     font-family: "Upheaval";
     position: absolute;
     left: 50%;
-    top: 200%;
+    top: 250%;
     transform: translateX(-50%) translateY(-50%);
     display: flex;
     flex-basis: 50%;  
@@ -309,7 +309,7 @@ height: 50px;
 /*formulario*/
 
 .contact{
-    padding: 150px 300px;
+    padding: 100px 200px;
         text-align: center;
         font-size: 5em;
         font-family: "Upheaval";
@@ -389,31 +389,43 @@ input{
         }
 }
 
+/*--------------------------------------------------------------------------------------------------------------------*/
 
-
-/*pags*/
+/*pags 1y3*/
 .textos1{ 
-   
+    color: #ffffff;
+    text-align: center; 
+    font-size: 5em;
+    font-family: "Upheaval";
+    position: absolute;
+    left: 50%;
+    top: 230%;
+    transform: translateX(-50%) translateY(-50%);
     display: flex;
-flex-direction: column;
-/*que no toque los bordes*/
-display: flex;
-padding-left: 10%;
-padding-top: 8%;
-padding-right: 10%;
-}
+    flex-basis: 50%;  
+    flex-direction: column;
 
-.textos1 .pelis{text-align: center;
-     top: 0;
-    left: 20%;
+    }
+
+.textos1 .pelis{
+    text-align: center;
+    top: 0;
+    left: 15%;
     right: 20%;
     /*separar los textos e imagenes*/
     display: flex;
-    margin-top: 5%;
+    margin-top: 22%;
+    flex-direction: column-reverse;
+    flex-direction: row;
 }
 
-.textos1 .pelis .info{
+.textos1 .info{
+    text-align: left;
     flex-direction: column;
+    left: 40%;
+    margin: 20px;
+    height: 200px;
+    width: 380px;
 }
 
 .textos1 .pelis{
@@ -421,11 +433,9 @@ padding-right: 10%;
     justify-content: flex-start;    
 }
 
-.textos1 .info{
+.textos1 .pelis .info{
     /*que quede la foto al lado del texto*/
     display: flex;
-    padding-left: 10%;
-    
 }
 
 .textos1  h2{
@@ -434,7 +444,7 @@ padding-right: 10%;
     
 
 .textos1 p{
-    font-size: 17px;
+    font-size: 15px;
     color:#ffffff;
     margin-bottom: 45px;
     font-family: "W3$iP";
@@ -445,16 +455,88 @@ padding-right: 10%;
         height: 400px;
     }
 
+
+@media(max-width:820px){
+    .textos1{ 
+        color: #ffffff;
+        text-align: center; 
+        font-size: 5em;
+        font-family: "Upheaval";
+        position: absolute;
+        left: 50%;
+        top: 220%;
+        transform: translateX(-50%) translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        }
+
+    .textos1 .pelis{
+        text-align: center;
+        top: 0;
+        left: 15%;
+        right: 20%;
+            /*separar los textos e imagenes*/
+        display: flex;
+        margin-top: 12%;
+        flex-direction: column-reverse;
+        }
+        
+    .textos1 .info{
+        text-align: center;
+        flex-direction: column;
+        left: 40%;
+        margin: 10px;
+        height: 200px;
+        width: 380px;
+        }
+        
+    .textos1 .pelis{
+        display: flex;
+        justify-content: flex-start;    
+        }
+        
+    .textos1 .pelis .info{
+            /*que quede la foto al lado del texto*/
+        display: flex;
+        }
+        
+    .textos1  h2{
+        font-size: 30px;
+        color: #ffffff;
+        }
+            
+    .textos1 p{
+        font-size: 15px;
+        color:#ffffff;
+        margin-bottom: 5px;
+        font-family: "W3$iP";
+        }
+    
+        .textos1 img{
+            margin-left:50px;
+        }
+}
+
+
+
+/*videos*/
     .contact1{
-        padding: 120px 60px;
+        padding: 150px 20px;
+        text-align: center;
+        font-size: 5em;
+        font-family: "Upheaval";
+        position: absolute;
+        left: 50%;
+        top: 500%;
+        transform: translateX(-50%) translateY(-50%);
     }
     
     .contact1-content{
         background-color: rgb(12, 12, 80);
         text-align: center;
-        padding: 90px;
-        border-radius: 30px;
-        font-size: 36px;
+        padding: 50px;
+        border-radius: 50px;
+        font-size: 30px;
         color:#ffffff
     }
 
@@ -471,3 +553,282 @@ margin-top: 0%;
     margin-right: 10px;
 }
 
+@media(max-width:820px){
+    .contact1{
+        text-align: center;
+        font-size: 5em;
+        font-family: "Upheaval";
+        position: absolute;
+        left: 50%;
+        top: 200%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .contact1-content{
+        background-color: rgb(12, 12, 80);
+        text-align: center;
+        padding: 50px;
+        border-radius: 50px;
+        font-size: 30px;
+        color:#ffffff
+    }
+
+    .contact1 h3{
+margin-top: 0%;
+    }
+
+.contact1-content video{
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ 
+}
+
+
+
+
+/*pags 2y4*/
+.textos2{ 
+   
+    color: #ffffff;
+    text-align: center; 
+    font-size: 5em;
+    font-family: "Upheaval";
+    position: absolute;
+    left: 50%;
+    top: 230%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+
+    }
+
+.textos2 .pelis{
+    text-align: center;
+    top: 0;
+    left: 15%;
+    right: 20%;
+        /*separar los textos e imagenes*/
+    display: flex;
+    margin-top: 22%;
+    flex-direction: column-reverse;
+    flex-direction: row;
+}
+
+.textos2 .info{
+    text-align: left;
+    flex-direction: column;
+    left: 40%;
+    margin: 20px;
+    height: 200px;
+    width: 380px;
+}
+
+.textos2 .pelis{
+    display: flex;
+    justify-content: flex-start;    
+}
+
+.textos2 .pelis .info{
+    /*que quede la foto al lado del texto*/
+    display: flex;
+}
+
+.textos2  h2{
+    font-size: 30px;
+    color: #ffffff;}
+    
+
+.textos2 p{
+    font-size: 15px;
+    color:#ffffff;
+    margin-bottom: 45px;
+    font-family: "W3$iP";
+    }
+
+.textos2 img{
+        width: 300px;
+        height: 400px;
+    }
+
+
+@media(max-width:820px){
+    .textos2{ 
+        color: #ffffff;
+        text-align: center; 
+        font-size: 5em;
+        font-family: "Upheaval";
+        position: absolute;
+        left: 50%;
+        top: 170%;
+        transform: translateX(-50%) translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        }
+
+    .textos2 .pelis{
+        text-align: center;
+        top: 0;
+        left: 15%;
+        right: 20%;
+            /*separar los textos e imagenes*/
+        display: flex;
+        margin-top: 12%;
+        flex-direction: column-reverse;
+        }
+        
+    .textos2 .info{
+        text-align: center;
+        flex-direction: column;
+        left: 40%;
+        margin: 10px;
+        height: 200px;
+        width: 380px;
+        }
+        
+    .textos2 .pelis{
+        display: flex;
+        justify-content: flex-start;    
+        }
+        
+    .textos2 .pelis .info{
+            /*que quede la foto al lado del texto*/
+        display: flex;
+        }
+        
+    .textos2  h2{
+        font-size: 30px;
+        color: #ffffff;
+    }
+            
+    .textos2 p{
+        font-size: 15px;
+        color:#ffffff;
+        margin-bottom: 5px;
+        font-family: "W3$iP";
+        }
+        
+    .textos2 img{
+        margin-left: 50px; 
+        }
+    }
+
+
+/*videos*/
+    .contact1{
+        padding: 150px 20px;
+        text-align: center;
+        font-size: 5em;
+        font-family: "Upheaval";
+        position: absolute;
+        left: 50%;
+        top: 500%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .contact1-content{
+        background-color: rgb(12, 12, 80);
+        text-align: center;
+        padding: 50px;
+        border-radius: 50px;
+        font-size: 30px;
+        color:#ffffff
+    }
+
+    .contact1 h3{
+margin-top: 0%;
+    }
+
+.contact1-content video{
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*videos*/
+    .contact2{
+        padding: 150px 20px;
+        text-align: center;
+        font-size: 5em;
+        font-family: "Upheaval";
+        position: absolute;
+        left: 50%;
+        top: 500%;
+        transform: translateX(-50%) translateY(-50%);
+        display: block;
+    }
+
+    .contact2-content{
+        background-color: rgb(12, 12, 80);
+        text-align: center;
+        padding: 50px;
+        border-radius: 50px;
+        font-size: 30px;
+        color:#ffffff;
+        display: block;
+    }
+
+    .contact2 h3{
+        margin-top: 0%;
+    }
+
+    .contact2-content video{
+    width: 350px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+    @media(max-width:820px){
+    .contact2{
+        text-align: center;
+        font-size: 5em;
+        font-family: "Upheaval";
+        position: absolute;
+        left: 50%;
+        top: 450%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .contact2 .form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact2-content{
+        background-color: rgb(12, 12, 80);
+        text-align: center;
+        padding: 50px;
+        border-radius: 50px;
+        font-size: 30px;
+        color:#ffffff;
+        display: block;
+       width: 280px;
+        height: 600px;
+
+    }
+/*
+    .contact2 h3{
+    margin-top: 0%;
+    }*/
+
+    .contact2-content video{
+    width: 250px;
+    height: 180px;
+    display: block ;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+    }
+
+    }
